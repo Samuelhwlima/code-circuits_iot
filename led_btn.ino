@@ -32,9 +32,9 @@ void loop()
 	int estado_btn = digitalRead(BTN);
   
   if (estado_btn == 0){
-    digitalWrite(LED, 1);//Acender o Led
+    digitalWrite(LED, 1);
   }
   else{
-  	digitalWrite(LED, 0); //Apagar o Led
+  	digitalWrite(LED, 0);
   }
 }
